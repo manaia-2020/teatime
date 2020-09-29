@@ -11,6 +11,7 @@ export default function ingredientsReducer(state = initialState, action) {
     }
 }
 
+//this definitely needs a test - so much logic, how you know it worky and no breaky?
 function getNewState(state, ingredients) {
     const existingIngredients = state.find(item => item.ingredients[0]?.recipe_id === ingredients.ingredients[0]?.recipe_id)
     if (!existingIngredients){

@@ -1,3 +1,5 @@
+//I'm pretty sure the covid vaccine would be discovered immediately if this file had tests
+
 export function getRecipeIngredients(ingredients, recipeId) {
     const ingredientsFilter = ingredients.filter(item => 
         {return item.ingredients[0]?.recipe_id === recipeId})

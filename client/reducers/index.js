@@ -6,6 +6,8 @@ import stepsReducer from './steps'
 import favouriteReducer from './favourites'
 import currentPageReducer from './currentPage'
 
+//A test, a test, my kingdom for a test
+
 export default combineReducers({
     currentPage: currentPageReducer,
     recipes: recipesReducer,

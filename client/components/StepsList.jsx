@@ -4,6 +4,8 @@ import { fetchSteps } from '../actions'
 import { getSteps } from '../api'
 import { getRecipeSteps } from './helpers/helpers'
 
+//fetchSteps and getSteps are not used - remove until you need them
+
 class StepsList extends React.Component {
     
     render() {

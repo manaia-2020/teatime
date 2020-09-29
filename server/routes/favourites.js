@@ -4,6 +4,8 @@ const router = express.Router()
 
 module.exports = router
 
+//where forart though my dearest tests?
+
 //Get favourites 
 router.get('/api/favourites/:id', (req, res) => { 
   const id = 1 //req.params.id  need to hook up with authenticare

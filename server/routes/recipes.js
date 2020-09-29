@@ -6,6 +6,7 @@ module.exports = router
 
 //Get recipes and display on main page
 router.get('/api/recipes', (req, res) => {
+      //callback probably isn't the name you are wanting
   db.getRecipes()
     .then(callback => res.json({recipes: callback}))
     .catch(err => {
@@ -19,6 +20,7 @@ router.get('/api/ingredients/:id', (req, res) => {
 const id = req.params.id
   db.getIngredients(id)
     .then(callback => {
+      //callback probably isn't the name you are wanting
       res.json({ingredients: callback})
     })
     .catch(err => {
@@ -32,6 +34,7 @@ router.get('/api/steps/:id', (req, res) => {
   const id = req.params.id
   db.getSteps(id)
     .then(callback => {
+      //callback probably isn't the name you are wanting
       res.json({steps: callback})
     })
     .catch(err => {

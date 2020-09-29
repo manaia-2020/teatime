@@ -12,3 +12,5 @@ test('API fetches recipes from server', () => {
       expect(recipes[0].id).toBe(1)
     })
 })
+
+//great start - just need to test all the others now

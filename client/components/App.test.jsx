@@ -13,3 +13,5 @@ test('renders home', () => {
   expect(heading[0].innerHTML).toMatch(/Recipes/)
 })
 
+//need to test the event handlers work
+
