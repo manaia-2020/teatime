@@ -1,9 +1,7 @@
-# Tea Time
-### Taking the stress out of deciding what to cook
-##### Shane, James, Chaz & Cheryl
+# feed
 
 ##### Useage
-https://github.com/manaia-2020/teatime.git
+https://github.com/shane-chapman-23/feed.git
 
 npm i
 
